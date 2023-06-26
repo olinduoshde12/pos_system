@@ -1,0 +1,98 @@
+<!--
+    Created By : @yash
+                 4/26/2023 , Wednesday
+                 05:28 PM
+    Project :book_store
+    Contact: contact.yashen@gmail.com
+-->
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <script src="../assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <title>Title</title>
+</head>
+
+<body>
+<div class="top-container container-fluid mt-2">
+    <div class="row d-flex justify-content-evenly">
+        <h2 class="col-6">Manage Customers</h2>
+        <div class="col-2 btn btn-primary col-4 col-md-3 col-lg-2">Add Customer +</div>
+    </div>
+
+    <div class="row mt-3">
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <label for="exampleFormControlInput1" class="form-label">Customer ID</label>
+            <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="Cus-001">
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <label for="exampleFormControlInput2" class="form-label">Name</label>
+            <input type="text" class="form-control " id="exampleFormControlInput2" placeholder="Amal Perera">
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <label for="exampleFormControlInput3" class="form-label">Email</label>
+            <input type="text" class="form-control " id="exampleFormControlInput3" placeholder="Amal@gmail.com">
+        </div>
+
+    </div>
+
+    <div class="row mt-3 d-flex justify-content-evenly">
+        <div class="form-outline col-6">
+            <input type="search" class="form-control" id="datatable-search-input" placeholder="Search Customer">
+        </div>
+        <div class="btn btn-warning col-6 col-md-3 col-lg-2">Update Customer</div>
+    </div>
+
+    <div class="col-10 border border-dark mt-5 mx-auto"></div>
+
+    <div class="row col-12 mx-auto mt-5">
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Email</th>
+                <th scope="col">Options</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>C-001</td>
+                <td>Amal Perera</td>
+                <td>Amal@gmail.com</td>
+                <td><div class="btn btn-danger">delete</div></td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>C-001</td>
+                <td>Amal Perera</td>
+                <td>Amal@gmail.com</td>
+                <td><div class="btn btn-danger">delete</div></td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>C-001</td>
+                <td>Amal Perera</td>
+                <td>Amal@gmail.com</td>
+                <td><div class="btn btn-danger">delete</div></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+</body>
+
+</html>

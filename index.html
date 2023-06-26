@@ -1,0 +1,49 @@
+<!--
+    Created By : @yash
+                 4/26/2023 , Wednesday
+                 01:29 PM
+    Project :book_store
+    Contact: contact.yashen@gmail.com
+-->
+
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/styles/main.css">
+    <script src="assets/bootstrap/js/bootstrap.bundle.js"></script>
+    <script src="./js/main.js" defer></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+</head>
+
+<body class="vw-100 vh-100 d-flex justify-content-center align-items-center bg-dark text-white">
+    <main class="w-75 h-75 d-flex  border-danger bg-dark" >
+        <div class="img-box w-50 h-100 border rounded-bottom-2"></div>
+
+        <div class="form-box w-50 h-100 border d-flex flex-column justify-content-around ">
+            <h2 class="text-center">Sign in</h2>
+            <form class="bg-dark text-white w-100 h-80 p-3 d-flex flex-column justify-content-center">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Username</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class=" col-6 btn btn-warning align-self-end" onclick="toDashboard()"><a
+                        href="pages/dashboard.html" class="text-decoration-none text-dark">Sign in</a></button>
+                <p class="mt-5">Are you haven't an account ? <a href="./pages/signup.html" class="text-warning text-decoration-none">Sign up</a> now!</p>
+            </form>
+        </div>
+
+    </main>
+</body>
+
+</html>

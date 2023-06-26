@@ -1,0 +1,19 @@
+/*
+Styled by : @yash
+          4/26/2023 , Wednesday
+          02:41 PM
+Project :book_store
+Contact : contact.yashen@gmail.com
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.img-box{
+    background-image: url(/assets/img/pos/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
